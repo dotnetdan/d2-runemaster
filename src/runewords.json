@@ -1,0 +1,365 @@
+[
+	{
+		"Name": "Ancient's Pledge",
+		"Runes": ["Ral", "Ort", "Tal"],
+		"Types": ["Shields"],
+		"Clvl": 21,
+		"Mods":[
+			"+50% Enhanced Defense",
+			"Cold Resist +43%",
+			"Lightning Resist +48%",
+			"Fire Resist +48%",
+			"Poison Resist +48%",
+			"10% Damage Taken Goes to Mana"
+		],
+		"Comments": "Recipe is given by Qual-Kehk as a reward for completing the second quest in Act Five. Bonuses will stack on top of a Paladin's inherent shield properties. ",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Ancient's_Pledge"
+	},
+	{
+		"Name": "Beast",
+		"Runes": ["Ber", "Tir", "Um", "Mal", "Lum"],
+		"Types": ["Axes", "Hammers", "Scepters"],
+		"Clvl": 63,
+		"Mods":[
+			"Level 9 Fanaticism Aura When Equipped",
+			"+40% Increased Attack Speed",
+			"+240-270% Enhanced Damage (varies)",
+			"20% Chance of Crushing Blow",
+			"25% Chance of Open Wounds",
+			"+3 To Werebear",
+			"+3 To Lycanthropy",
+			"Prevent Monster Heal",
+			"+25-40 To Strength (varies)",
+			"+10 To Energy",
+			"+2 To Mana After Each Kill",
+			"Level 13 Summon Grizzly (5 Charges)"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Beast"
+	},
+	{
+		"Name": "Black",
+		"Runes": ["Thul", "Io", "Nef"],
+		"Types": ["Clubs", "Hammers", "Maces"],
+		"Clvl": 35,
+		"Mods":[
+			"+120% Enhanced Damage",
+			"+200 to Attack Rating",
+			"Adds 3-14 Cold Damage (3 sec)",
+			"40% Chance of Crushing Blow",
+			"Knockback",
+			"+10 to Vitality",
+			"Magic Damage Reduced By 2",
+			"Level 4 Corpse Explosion (12 Charges)"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Black"
+	},
+	{
+		"Name": "Bone",
+		"Runes": ["Sol", "Um", "Um"],
+		"Types": ["Armor"],
+		"Clvl": 47,
+		"Mods":[
+			"15% Chance To Cast level 10 Bone Armor When Struck",
+			"15% Chance To Cast level 10 Bone Spear On Striking",
+			"+2 To Necromancer Skill Levels",
+			"+100-150 To Mana (varies)",
+			"All Resistances +30",
+			"Damage Reduced By 7"
+		],
+		"Comments": "Useful Necromancer bonuses.",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Bone"
+	},
+	{
+		"Name": "Bramble",
+		"Runes": ["Ral", "Ohm", "Sur", "Eth"],
+		"Types": ["Armor"],
+		"Clvl": 61,
+		"Mods":[
+			"Level 15-21 Thorns Aura When Equipped (varies)",
+			"+50% Faster Hit Recovery",
+			"+25-50% To Poison Skill Damage (varies)",
+			"+300 Defense",
+			"Increase Maximum Mana 5%",
+			"Regenerate Mana 15%",
+			"+5% To Maximum Cold Resist",
+			"Fire Resist +30%",
+			"Poison Resist +100%",
+			"+13 Life After Each Kill",
+			"Level 13 Spirit of Barbs (33 Charges)"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Bramble"
+	},
+	{
+		"Name": "Brand",
+		"Runes": ["Jah", "Lo", "Mal", "Gul"],
+		"Types": ["Missile Weapons"],
+		"Clvl": 65,
+		"Mods":[
+			"35% Chance To Cast Level 14 Amplify Damage When Struck",
+			"100% Chance To Cast Level 18 Bone Spear On Striking",
+			"Fires Explosive Arrows or Bolts (15)",
+			"+260-340% Enhanced Damage (varies)",
+			"Ignore Target's Defense",
+			"20% Bonus to Attack Rating",
+			"+280-330% Damage To Demons (varies)",
+			"20% Deadly Strike",
+			"Prevent Monster Heal",
+			"Knockback"
+		],
+		"Comments": null,
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Brand"
+	},
+	{
+		"Name": "Breath of the Dying",
+		"Runes": ["Vex", "Hel", "El", "Eld", "Zod", "Eth"],
+		"Types": ["All Weapons"],
+		"Clvl": 69,
+		"Mods":[
+			"50% Chance To Cast Level 20 Poison Nova When You Kill An Enemy",
+			"Indestructible",
+			"+60% Increased Attack Speed",
+			"+350-400% Enhanced Damage (varies)",
+			"-25% Target Defense",
+			"+50 To Attack Rating",
+			"+200% Damage To Undead",
+			"+50 To Attack Rating Against Undead",
+			"7% Mana Stolen Per Hit",
+			"12-15% Life Stolen Per Hit (varies)",
+			"Prevent Monster Heal",
+			"+30 To All Attributes",
+			"+1 To Light Radius",
+			"Requirements -20% "
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Breath_of_the_Dying"
+	},
+	{
+		"Name": "Call to Arms",
+		"Runes": ["Amn", "Ral", "Mal", "Ist", "Ohm"],
+		"Types": ["Weapons"],
+		"Clvl": 57,
+		"Mods":[
+			"+1 To All Skills",
+			"+40% Increased Attack Speed",
+			"+240-290% Enhanced Damage (varies)",
+			"Adds 5-30 Fire Damage",
+			"7% Life Stolen Per Hit",
+			"+2-6 To Battle Command (varies)",
+			"+1-6 To Battle Orders (varies)",
+			"+1-4 To Battle Cry (varies)",
+			"Prevent Monster Heal",
+			"Replenish Life +12",
+			"30% Better Chance of Getting Magic Items"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Call_to_Arms"
+	},
+	{
+		"Name": "Chains of Honor",
+		"Runes": ["Dol", "Um", "Ber", "Ist"],
+		"Types": ["Armor"],
+		"Clvl": 63,
+		"Mods":[
+			"+2 To All Skills",
+			"+200% Damage To Demons",
+			"+100% Damage To Undead",
+			"8% Life Stolen Per Hit",
+			"+70% Enhanced Defense",
+			"+20 To Strength",
+			"Replenish Life +7",
+			"All Resistances +65",
+			"Damage Reduced By 8%",
+			"25% Better Chance of Getting Magic Items"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Chains_of_Honor"
+	},
+	{
+		"Name": "Chaos",
+		"Runes": ["Fal", "Ohm", "Um"],
+		"Types": ["Claws"],
+		"Clvl": 57,
+		"Mods":[
+			"9% Chance To Cast Level 11 Frozen Orb On Striking",
+			"11% Chance To Cast Level 9 Charged Bolt On Striking",
+			"+35% Increased Attacked Speed",
+			"+240-290% Enhanced Damage (varies)",
+			"Adds 216-471 Magic Damage",
+			"25% Chance of Open Wounds",
+			"+1 To Whirlwind",
+			"+10 To Strength",
+			"+15 Life After Each Demon Kill"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Chaos"
+	},
+	{
+		"Name": "Crescent Moon",
+		"Runes": ["Shael", "Um", "Tir"],
+		"Types": ["Axes", "Polearms", "Swords"],
+		"Clvl": 47,
+		"Mods":[
+			"10% Chance To Cast Level 17 Chain Lightning On Striking",
+			"7% Chance To Cast Level 13 Static Field On Striking",
+			"+20% Increased Attack Speed",
+			"+180-220% Enhanced Damage (varies)",
+			"Ignore Target's Defense",
+			"-35% To Enemy Lightning Resistance",
+			"25% Chance of Open Wounds",
+			"+9-11 Magic Absorb (varies)",
+			"+2 To Mana After Each Kill",
+			"Level 18 Summon Spirit Wolf (30 Charges)"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Crescent_Moon_(Runeword)"
+	},
+	{
+		"Name": "Death",
+		"Runes": ["Hel", "El", "Vex", "Ort", "Gul"],
+		"Types": ["Swords", "Axes"],
+		"Clvl": 55,
+		"Mods":[
+			"Indestructible",
+			"100% Chance To Cast Level 44 Chain Lightning When You Die",
+			"25% Chance To Cast Level 18 Glacial Spike On Attack",
+			"+300-385% Enhanced Damage (varies)",
+			"20% Bonus To Attack Rating",
+			"+50 To Attack Rating",
+			"Adds 1-50 Lightning Damage",
+			"7% Mana Stolen Per Hit",
+			"50% Chance of Crushing Blow",
+			"(0.5*Clvl)% Deadly Strike (Based on Character Level)",
+			"+1 To Light Radius",
+			"Level 22 Blood Golem (15 Charges)",
+			"Requirements -20%"
+		],
+		"Comments": null,
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Death"
+	},
+	{
+		"Name": "Delerium",
+		"Runes": ["Lem", "Ist", "Io"],
+		"Types": ["Headgear"],
+		"Clvl": 51,
+		"Mods":[
+			"1% Chance To Cast lvl 50 Delirium When Struck",
+			"6% Chance To Cast lvl 14 Mind Blast When Struck",
+			"14% Chance To Cast lvl 13 Terror When Struck",
+			"11% Chance To Cast lvl 18 Confuse On Striking",
+			"+2 To All Skills",
+			"+261 Defense",
+			"+10 To Vitality",
+			"50% Extra Gold From Monsters",
+			"25% Better Chance of Getting Magic Items",
+			"Level 17 Attract (60 Charges)"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Delirium"
+	},
+	{
+		"Name": "Destruction",
+		"Runes": ["Vex", "Lo", "Ber", "Jah", "Ko"],
+		"Types": ["Polearms", "Swords"],
+		"Clvl": 65,
+		"Mods":[
+			"23% Chance To Cast Level 12 Volcano On Striking",
+			"5% Chance To Cast Level 23 Molten Boulder On Striking",
+			"100% Chance To Cast level 45 Meteor When You Die",
+			"15% Chance To Cast Level 22 Nova On Attack",
+			"+350% Enhanced Damage",
+			"Ignore Target's Defense",
+			"Adds 100-180 Magic Damage",
+			"7% Mana Stolen Per Hit",
+			"20% Chance Of Crushing Blow",
+			"20% Deadly Strike",
+			"Prevent Monster Heal",
+			"+10 To Dexterity"
+		],
+		"Comments": null,
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Destruction"
+	},
+	{
+		"Name": "Doom",
+		"Runes": ["Hel", "Ohm", "Um", "Lo", "Cham"],
+		"Types": ["Axes", "Hammers", "Polearms"],
+		"Clvl": 67,
+		"Mods":[
+			"5% Chance To Cast Level 18 Volcano On Striking",
+			"Level 12 Holy Freeze Aura When Equipped",
+			"+2 To All Skills",
+			"+45% Increased Attack Speed",
+			"+330-370% Enhanced Damage (varies)",
+			"-40-60% To Enemy Cold Resistance (varies)",
+			"20% Deadly Strike",
+			"25% Chance of Open Wounds",
+			"Prevent Monster Heal",
+			"Freezes Target +3",
+			"Requirements -20%"
+		],
+		"Comments": null,
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Doom"
+	},
+	{
+		"Name": "Dragon",
+		"Runes": ["Sur", "Lo", "Sol"],
+		"Types": ["Armor", "Shields"],
+		"Clvl": 61,
+		"Mods":[
+			"20% Chance to Cast Level 18 Venom When Struck",
+			"12% Chance To Cast Level 15 Hydra On Striking",
+			"Level 14 Holy Fire Aura When Equipped",
+			"+360 Defense",
+			"+230 Defense Vs. Missile",
+			"+3-5 To All Attributes (varies)",
+			"+(0.375*Clvl) To Strength (Based on Character Level)",
+			"+5% To Maximum Lightning Resist",
+			"Damage Reduced by 7",
+			"(Armor) Increase Maximum Mana 5%",
+			"(Shields) +50 To Mana"
+		],
+		"Comments": null,
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Dragon"
+	},
+	{
+		"Name": "Dream",
+		"Runes": ["Io", "Jah", "Pul"],
+		"Types": ["Headgear", "Shields"],
+		"Clvl": 65,
+		"Mods":[
+			"10% Chance To Cast Level 15 Confuse When Struck",
+			"Level 15 Holy Shock Aura When Equipped",
+			"+20-30% Faster Hit Recovery (varies)",
+			"+30% Enhanced Defense",
+			"+150-220 Defense (varies)",
+			"+10 To Vitality",
+			"+(0.625*Clvl) To Mana (Based On Character Level)",
+			"All Resistances +5-20 (varies)",
+			"12-25% Better Chance of Getting Magic Items (varies)",
+			"(Headgear) Increase Maximum Life 5%",
+			"(Shields) +50 To Life"
+		],
+		"Comments": null,
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Dream"
+	}
+	
+]

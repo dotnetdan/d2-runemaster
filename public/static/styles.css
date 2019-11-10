@@ -1,0 +1,44 @@
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	background-image: url('Pandemonium_Fortress_Compressed.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+.single-line{
+	/* line-height: 1; */
+}
+
+.runeword-card {
+	background-color: black;
+	opacity: 0.85;
+	width: 500px;
+	margin: 3px auto 3px auto;
+	padding: 5px;
+}
+
+.runeword-card-name {
+	color: rgb(154,140,88);
+	font-weight: bold;
+	align-content: center;
+	text-align: center;
+	margin: 1px;
+}
+
+.runeword-card-word {
+	color: rgb(154,140,88);
+	/* font-weight:bold; */
+	align-content: center;
+	text-align: center;
+	margin: 1px;
+	/* font-style: italic; */
+}
+
+.runeword-card-mod {
+	color: #7274ed;
+	align-content: center;
+	text-align: center;
+	margin: 1px;
+}
