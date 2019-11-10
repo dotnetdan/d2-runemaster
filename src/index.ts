@@ -30,7 +30,7 @@ function createRunewordCard(runeword: Runeword): HTMLDivElement {
 	runeWordCardElement.appendChild(runeCardNameElement);
 
 	const runeWordCardWordElement = document.createElement("p");
-	runeWordCardWordElement.innerText = "'" + runeword.Runes.join("") +"'";
+	runeWordCardWordElement.innerText = "'" + runeword.Runes.join("") + "'";
 	runeWordCardWordElement.className = "runeword-card-word";
 	runeCardNameElement.classList.add("single-line");
 	runeWordCardElement.appendChild(runeWordCardWordElement);
