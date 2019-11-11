@@ -1,0 +1,167 @@
+[
+	{
+		"Name":"El", 
+		"Rank": 1, 
+		"ImageFile": "./static/El_Rune.png"
+	},
+	{
+		"Name":"Eld", 
+		"Rank": 2, 
+		"ImageFile": "./static/Eld_Rune.png"
+	},
+	{
+		"Name":"Tir", 
+		"Rank": 3, 
+		"ImageFile": "./static/Tir_Rune.png"
+	},
+	{
+		"Name":"Nef", 
+		"Rank": 4, 
+		"ImageFile": "./static/Nef_Rune.png"
+	},
+	{
+		"Name":"Eth", 
+		"Rank": 5, 
+		"ImageFile": "./static/Eth_Rune.png"
+	},
+	{
+		"Name":"Ith", 
+		"Rank": 6, 
+		"ImageFile": "./static/Ith_Rune.png"
+	},
+	{
+		"Name":"Tal", 
+		"Rank": 7, 
+		"ImageFile": "./static/Tal_Rune.png"
+	},
+	{
+		"Name":"Ral", 
+		"Rank": 8, 
+		"ImageFile": "./static/Ral_Rune.png"
+	},
+	{
+		"Name":"Ort", 
+		"Rank": 9, 
+		"ImageFile": "./static/Ort_Rune.png"
+	},
+	{
+		"Name":"Thul", 
+		"Rank": 10, 
+		"ImageFile": "./static/Thul_Rune.png"
+	},
+	{
+		"Name":"Amn", 
+		"Rank": 11, 
+		"ImageFile": "./static/Amn_Rune.png"
+	},
+	{
+		"Name":"Sol", 
+		"Rank": 12, 
+		"ImageFile": "./static/Sol_Rune.png"
+	},
+	{
+		"Name":"Shael", 
+		"Rank": 13, 
+		"ImageFile": "./static/Shael_Rune.png"
+	},
+	{
+		"Name":"Dol", 
+		"Rank": 14, 
+		"ImageFile": "./static/Dol_Rune.png"
+	},
+	{
+		"Name":"Hel", 
+		"Rank": 15, 
+		"ImageFile": "./static/Hel_Rune.png"
+	},
+	{
+		"Name":"Io", 
+		"Rank": 16, 
+		"ImageFile": "./static/Io_Rune.png"
+	},
+	{
+		"Name":"Lum", 
+		"Rank": 17, 
+		"ImageFile": "./static/Lum_Rune.png"
+	},
+	{
+		"Name":"Ko", 
+		"Rank": 18, 
+		"ImageFile": "./static/Ko_Rune.png"
+	},
+	{
+		"Name":"Fal", 
+		"Rank": 19, 
+		"ImageFile": "./static/Fal_Rune.png"
+	},
+	{
+		"Name":"Lem", 
+		"Rank": 23, 
+		"ImageFile": "./static/Lem_Rune.png"
+	},
+	{
+		"Name":"Pul", 
+		"Rank": 22, 
+		"ImageFile": "./static/Pul_Rune.png"
+	},
+	{
+		"Name":"Um", 
+		"Rank": 22, 
+		"ImageFile": "./static/Um_Rune.png"
+	},
+	{
+		"Name":"Mal", 
+		"Rank": 23, 
+		"ImageFile": "./static/Mal_Rune.png"
+	},
+	{
+		"Name":"Ist", 
+		"Rank": 24, 
+		"ImageFile": "./static/Ist_Rune.png"
+	},
+	{
+		"Name":"Gul", 
+		"Rank": 25, 
+		"ImageFile": "./static/Gul_Rune.png"
+	},
+	{
+		"Name":"Vex", 
+		"Rank": 26, 
+		"ImageFile": "./static/Vex_Rune.png"
+	},
+	{
+		"Name":"Ohm", 
+		"Rank": 27, 
+		"ImageFile": "./static/Ohm_Rune.png"
+	},
+	{
+		"Name":"Lo", 
+		"Rank": 28, 
+		"ImageFile": "./static/Lo_Rune.png"
+	},
+	{
+		"Name":"Sur", 
+		"Rank": 29, 
+		"ImageFile": "./static/Sur_Rune.png"
+	},
+	{
+		"Name":"Ber", 
+		"Rank": 30, 
+		"ImageFile": "./static/Ber_Rune.png"
+	},
+	{
+		"Name":"Jah", 
+		"Rank": 31, 
+		"ImageFile": "./static/Jah_Rune.png"
+	},
+	{
+		"Name":"Cham", 
+		"Rank": 32, 
+		"ImageFile": "./static/Cham_Rune.png"
+	},
+	{
+		"Name":"Zod", 
+		"Rank": 33, 
+		"ImageFile": "./static/Zod_Rune.png"
+	}
+]
