@@ -8,6 +8,8 @@
 		"allowJs": true,
 		"sourceMap": true,
 		"resolveJsonModule": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"strict": true,
+		"strictNullChecks": true
   }
 }
