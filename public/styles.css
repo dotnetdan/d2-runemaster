@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lora', serif;
 	font-size: 100%;
+	background-color: black; /* This ensures that the page doesn't flash white while loading the background image */
 	background-image: url('static/Pandemonium_Fortress_Compressed.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -9,6 +10,7 @@ body {
 	overflow-y: scroll;
 	height: 100vh;
 	margin: 0;
+	
 }
 
 .runeword-card {

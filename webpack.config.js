@@ -6,6 +6,7 @@ module.exports = {
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'public/dist'),
+		publicPath: "/d2-runemaster/"
 	},
 	module: {
 		rules: [

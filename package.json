@@ -5,17 +5,20 @@
   "private": true,
   "scripts": {
     "build": "webpack --watch",
-    "start": "webpack-dev-server"
+		"start": "webpack-dev-server",
+		"deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
-  "dependencies": {}
+	"dependencies": {}
+	
 }
