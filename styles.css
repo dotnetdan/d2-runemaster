@@ -1,0 +1,100 @@
+body {
+	font-family: 'Lora', serif;
+	font-size: 100%;
+	background-image: url('static/Pandemonium_Fortress_Compressed.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-y: scroll;
+	height: 100vh;
+	margin: 0;
+}
+
+.runeword-card {
+	background-color: black;
+	opacity: 0.85;
+	width: 30em;
+	margin: .5em auto .5em auto;
+	padding: .5em;
+	max-width: 80%;
+}
+
+.runeword-card-text {
+	text-align: center;
+	margin: 0;
+}
+
+.runeword-card-name {
+	color: #9a8c58;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.runeword-card-word {
+	color: #9a8c58;
+}
+
+.runeword-card-mod {
+	color: #7274ed;
+}
+
+.runeword-card-items {
+	color: #707070;
+}
+
+.rune-outer-button {
+	width: 45px;
+	padding: 0;
+}
+
+.rune-button-caption {
+	color: rgb(255, 165, 0);
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.rune-button {
+	width: 45px;
+	height: 45px;
+	padding: 0;
+	border-color: #9a8c58;
+	background-color: black;
+}
+
+.rune-icon {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0;
+	/* background-color: orange;
+	opacity: .8; */
+}
+
+.rune-buttons-container {
+	width: 500px;
+	margin: 3px auto 3px auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	opacity: .9;
+	padding: 3px;
+}
+
+.diablo-wiki-link {
+	position: fixed;
+	right: 5px;
+	bottom: 0px;
+}
+
+hr { 
+	display: block;
+	margin: 1em auto 1em auto;
+	overflow: hidden;
+	border-top: 1px solid #9a8c58;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
