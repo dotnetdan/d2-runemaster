@@ -1,60 +1,61 @@
-import RunesJson from './runes.json';
-import RunewordsJson from './runewords.json';
-import { ApplicationState } from './ApplicationState';
-import { Runeword } from './Runeword';
+import RunesJson from "./runes.json";
+import RunewordsJson from "./runewords.json";
+import { ApplicationStore } from "./ApplicationStore";
+import { createElement } from "./JSXFactory"
 
-const runeButtonsFrag = document.createDocumentFragment();
+const fragment = document.createDocumentFragment();
 
-const runeButtonsContainer = document.createElement("div");
-runeButtonsContainer.className = "rune-buttons-container";
+const runeButtonsContainer = <div class="rune-buttons-container"></div>;
 
-RunesJson.forEach(runeJson => {
-	const outerButton = document.createElement("div");
-	outerButton.className = "rune-outer-button";
-
-	const buttonCaption = document.createElement("p");
-	buttonCaption.className = "rune-button-caption";
-	buttonCaption.innerText = `${runeJson.Name}`;
-	outerButton.appendChild(buttonCaption);
-
-	const runeButton = document.createElement("button");
-	runeButton.className = "rune-button";
-	runeButton.innerHTML = `<img class="rune-icon" src="${runeJson.ImageFile}">`;
-	runeButton.addEventListener("click", (e: Event) => {
-		playRuneSound();
-		ApplicationState.runeButtonActivated(runeJson.Name);
-	});
-	outerButton.appendChild(runeButton);
+RunesJson.forEach(rune => {
+	const outerButton = createRuneButton(rune);
 	runeButtonsContainer.appendChild(outerButton);
-	ApplicationState.runeButtonsByName.set(runeJson.Name, runeButton);
 });
 
-runeButtonsFrag.appendChild(runeButtonsContainer);
-document.body.appendChild(runeButtonsFrag);
-
-const runeWordCardsFragment = document.createDocumentFragment();
+fragment.appendChild(runeButtonsContainer);
+document.body.appendChild(fragment);
 
 RunewordsJson.forEach(runeWordJson => {
-	runeWordCardsFragment.appendChild(createRunewordCard(runeWordJson));
+	fragment.appendChild(createRunewordCard(runeWordJson));
 });
 
-document.body.appendChild(runeWordCardsFragment);
+document.body.appendChild(fragment);
 
 function playRuneSound() {
 	const audio = new Audio("./static/rune.mp3");
 	audio.play();
 }
 
-function createRunewordCard(runeword: Runeword): HTMLDivElement {
+function createRuneButton(rune: typeof RunesJson[0]): HTMLDivElement {
+	const outerButton =
+		<div class="rune-outer-button">
+			<p class="rune-button-caption">{rune.Name}</p>
+		</div>;
+
+	const runeButton =
+		<button class="rune-button">
+			<img class="rune-icon" src={rune.ImageFile}></img>
+		</button>;
+
+	runeButton.addEventListener("click", (e: Event) => {
+		playRuneSound();
+		ApplicationStore.runeButtonActivated(rune.Name);
+	});
+	ApplicationStore.runeButtonsByName.set(rune.Name, runeButton);
+
+	outerButton.appendChild(runeButton);
+	return outerButton;
+}
+
+function createRunewordCard(runeword: typeof RunewordsJson[0]): HTMLDivElement {
 	const runeWordCardElement = document.createElement("div");
 	runeWordCardElement.className = "runeword-card";
-
 	const runeCardNameElement = document.createElement("p");
 	runeCardNameElement.innerHTML = `<a href="${runeword.Url}" class="runeword-card-name" target="_blank">${runeword.Name}</a>`;
 	runeCardNameElement.classList.add("runeword-card-name");
 	runeCardNameElement.classList.add("runeword-card-text");
 	runeWordCardElement.appendChild(runeCardNameElement);
-	ApplicationState.runeCardsByName.set(runeword.Name, runeWordCardElement);
+	ApplicationStore.runeCardsByName.set(runeword.Name, runeWordCardElement);
 
 	const runeWordCardWordElement = document.createElement("p");
 	runeWordCardWordElement.innerText = "'" + runeword.Runes.join("") + "'";

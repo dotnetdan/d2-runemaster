@@ -4,9 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack --watch",
-		"start": "webpack-dev-server",
-		"deploy": "gh-pages -d public"
+    "build": "webpack",
+    "buildAndWatch": "webpack --watch",
+    "start": "webpack-dev-server --no-inline",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,5 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
-	"dependencies": {}
-	
+  "dependencies": {}
 }

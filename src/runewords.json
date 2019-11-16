@@ -35,7 +35,7 @@
 			"+2 To Mana After Each Kill",
 			"Level 13 Summon Grizzly (5 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Beast"
 	},
@@ -54,7 +54,7 @@
 			"Magic Damage Reduced By 2",
 			"Level 4 Corpse Explosion (12 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Black"
 	},
@@ -93,7 +93,7 @@
 			"+13 Life After Each Kill",
 			"Level 13 Spirit of Barbs (33 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Bramble"
 	},
@@ -114,7 +114,7 @@
 			"Prevent Monster Heal",
 			"Knockback"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Brand"
 	},
@@ -139,7 +139,7 @@
 			"+1 To Light Radius",
 			"Requirements -20% "
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Breath_of_the_Dying"
 	},
@@ -161,7 +161,7 @@
 			"Replenish Life +12",
 			"30% Better Chance of Getting Magic Items"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Call_to_Arms"
 	},
@@ -182,7 +182,7 @@
 			"Damage Reduced By 8%",
 			"25% Better Chance of Getting Magic Items"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Chains_of_Honor"
 	},
@@ -202,7 +202,7 @@
 			"+10 To Strength",
 			"+15 Life After Each Demon Kill"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Chaos"
 	},
@@ -223,7 +223,7 @@
 			"+2 To Mana After Each Kill",
 			"Level 18 Summon Spirit Wolf (30 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Crescent_Moon_(Runeword)"
 	},
@@ -247,7 +247,7 @@
 			"Level 22 Blood Golem (15 Charges)",
 			"Requirements -20%"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Death"
 	},
@@ -268,7 +268,7 @@
 			"25% Better Chance of Getting Magic Items",
 			"Level 17 Attract (60 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Delirium"
 	},
@@ -291,7 +291,7 @@
 			"Prevent Monster Heal",
 			"+10 To Dexterity"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Destruction"
 	},
@@ -313,7 +313,7 @@
 			"Freezes Target +3",
 			"Requirements -20%"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Doom"
 	},
@@ -335,7 +335,7 @@
 			"(Armor) Increase Maximum Mana 5%",
 			"(Shields) +50 To Mana"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Dragon"
 	},
@@ -357,7 +357,7 @@
 			"(Headgear) Increase Maximum Life 5%",
 			"(Shields) +50 To Life"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Dream"
 	},
@@ -379,7 +379,7 @@
 			"Fire Resist +15%",
 			"Poison Resist +15%" 
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Duress"
 	},
@@ -400,7 +400,7 @@
 			"+2 To Mana After Each Kill",
 			"Reduces All Vendor Prices 15% "
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Edge"
 	},
@@ -421,7 +421,7 @@
 			"15% Damage Taken Goes To Mana",
 			"(1*Clvl)% Better Chance of Getting Magic Items (Based On Character Level)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Enigma"
 	},
@@ -439,7 +439,7 @@
 			"Fire Resist +30%",
 			"Damage Reduced By 7"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Enlightenment"
 	},
@@ -461,7 +461,7 @@
 			"30% Better Chance Of Getting Magic Items",
 			"Level 8 Revive (88 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Eternity"
 	},
@@ -505,7 +505,7 @@
 			"10% Reanimate As: Returned",
 			"75% Extra Gold From Monsters"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Faith"
 	},
@@ -526,7 +526,7 @@
 			"Prevent Monster Heal",
 			"+10 To Strength"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Famine"
 	},
@@ -542,7 +542,7 @@
 			"+300% Enhanced Damage",
 			"+200% Enhanced Defense",
 			"+(8-12)*0.125*Clvl To Life (Based on Character Level)",
-			"All Resistances +25-30 (varies)",
+			"All Resistances +(25-30)",
 			"12% Damage Taken Goes To Mana",
 			"+1 To Light Radius",
 			"Weapons",
@@ -556,7 +556,7 @@
 			"+5% To Maximum Lightning Resist",
 			"Damage Reduced By 7"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Fortitude"
 	},
@@ -577,7 +577,7 @@
 			"+5 To Frenzy (Barbarian Only)",
 			"Prevent Monster Heal"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Fury_(runeword)"
 	},
@@ -596,7 +596,7 @@
 			"5% Damage Taken Goes To Mana",
 			"-3 To Light Radius "
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Gloom"
 	},
@@ -619,7 +619,7 @@
 			"+2 To Mana After Each Kill",
 			"+(10-15) Life After Each Kill"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Grief"
 	},
@@ -641,7 +641,7 @@
 			"Hit Blinds Target",
 			"Freezes Target +3"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Hand_of_Justice"
 	},
@@ -665,7 +665,7 @@
 			"+2 To Light Radius",
 			"Level 20 Revive (25 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Harmony"
 	},
@@ -688,7 +688,7 @@
 			"Level 4 Oak Sage (25 Charges)",
 			"Level 14 Raven (60 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Heart_of_the_Oak"
 	},
@@ -709,7 +709,7 @@
 			"Lightning Resist +60%",
 			"Level 7 Chain Lightning (60 charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Holy_Thunder"
 	},
@@ -731,7 +731,7 @@
 			"+2 to Mana after each Kill",
 			"+1 to Light Radius"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": false,
 		"Url": "https://diablo2.diablowiki.net/Honor"
 	},
@@ -753,7 +753,7 @@
 			"20% Deadly Strike",
 			"(3.125*Clvl)% Extra Gold From Monsters (Based on Character Level)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Ice"
 	},
@@ -774,8 +774,419 @@
 			"30% Better Chance of Getting Magic Items",
 			"Level 21 Cyclone Armor (30 Charges)"
 		],
-		"Comments": null,
+		"Comments": "",
 		"Ladder": true,
 		"Url": "https://diablo2.diablowiki.net/Infinity"
+	},
+	{
+		"Name": "Insight",
+		"Runes": ["Ral", "Tir", "Tal", "Sol"],
+		"Types": ["Polearms", "Staves"],
+		"Clvl": 27,
+		"Mods":[
+			"Level (12-17) Meditation Aura When Equipped",
+			"+35% Faster Cast Rate",
+			"+(200-260)% Enhanced Damage",
+			"+9 To Minimum Damage",
+			"(180-250)% Bonus to Attack Rating",
+			"Adds 5-30 Fire Damage",
+			"+75 Poison Damage Over 5 Seconds",
+			"+(1-6) To Critical Strike",
+			"+5 To All Attributes",
+			"+2 To Mana After Each Kill",
+			"23% Better Chance of Getting Magic Items"
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Insight"
+	},
+	{
+		"Name": "King's Grace",
+		"Runes": ["Amn", "Ral", "Thul"],
+		"Types": ["Swords", "Scepters"],
+		"Clvl": 25,
+		"Mods":[
+			"+100% Enhanced Damage",
+			"+150 to Attack Rating",
+			"+100% Damage to Demons",
+			"+100 to Attack Rating against Demons",
+			"+50% Damage to Undead",
+			"+100 to Attack Rating against Undead",
+			"Adds 5-30 Fire Damage",
+			"Adds 3-14 Cold damage",
+			"7% Life stolen per hit"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/King%27s_Grace"
+	},
+	{
+		"Name": "Kingslayer",
+		"Runes": ["Mal", "Um", "Gul", "Fal"],
+		"Types": ["Swords", "Axes"],
+		"Clvl": 53,
+		"Mods":[
+			"+30% Increased Attack Speed",
+			"+(230-270)% Enhanced Damage",
+			"-25% Target Defense",
+			"20% Bonus To Attack Rating",
+			"33% Chance of Crushing Blow",
+			"50% Chance of Open Wounds",
+			"+1 To Vengeance",
+			"Prevent Monster Heal",
+			"+10 To Strength",
+			"40% Extra Gold From Monsters"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Kingslayer"
+	},
+	{
+		"Name": "Last Wish",
+		"Runes": ["Jah", "Mal", "Jah", "Sur", "Jah", "Ber"],
+		"Types": ["Axes", "Hammers", "Swords"],
+		"Clvl": 65,
+		"Mods":[
+			"6% Chance To Cast Level 11 Fade When Struck",
+			"10% Chance To Cast Level 18 Life Tap On Striking",
+			"20% Chance To Cast Level 20 Charged Bolt On Attack",
+			"Level 17 Might Aura When Equipped",
+			"+(330-375)% Enhanced Damage",
+			"Ignore Target's Defense",
+			"(60-70)% Chance of Crushing Blow",
+			"Prevent Monster Heal",
+			"Hit Blinds Target",
+			"(0.5*Clvl)% Chance of Getting Magic Items (Based on Character Level)"
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Last_Wish"
+	},
+	{
+		"Name": "Lawbringer",
+		"Runes": ["Amn", "Lem", "Ko"],
+		"Types": ["Hammers", "Scepters", "Swords"],
+		"Clvl": 43,
+		"Mods":[
+			"20% Chance To Cast Level 15 Decrepify On Striking",
+			"Level (16-18) Sanctuary Aura When Equipped",
+			"-50% Target Defense",
+			"Adds 150-210 Fire Damage",
+			"Adds 130-180 Cold Damage",
+			"7% Life Stolen Per Hit",
+			"Slain Monsters Rest In Peace",
+			"+(200-250) Defense Vs. Missile",
+			"+10 To Dexterity",
+			"75% Extra Gold From Monsters"
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Lawbringer"
+	},
+	{
+		"Name": "Leaf",
+		"Runes": ["Tir", "Ral"],
+		"Types": ["Staves"],
+		"Clvl": 19,
+		"Mods":[
+			"+3 to Fire Skills",
+			"Adds 5-30 Fire Damage",
+			"+3 to Inferno (Sorceress Only)",
+			"+3 to Warmth (Sorceress Only)",
+			"+3 to Fire Bolt (Sorceress Only)",
+			"+(2*Clvl) Defence (Based on Character Level)",
+			"Cold Resist +33%",
+			"+2 to Mana after each Kill"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Leaf"
+	},
+	{
+		"Name": "Lionheart",
+		"Runes": ["Hel", "Lum", "Fal"],
+		"Types": ["Armor"],
+		"Clvl": 41,
+		"Mods":[
+			"+20% Enhanced Damage",
+			"+25 To Strength",
+			"+15 To Dexterity",
+			"+20 To Vitality",
+			"+10 To Energy",
+			"+50 To Life",
+			"All Resistances +30",
+			"Requirements -15%"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Lionheart"
+	},
+	{
+		"Name": "Lore",
+		"Runes": ["Ort", "Sol"],
+		"Types": ["Headgear"],
+		"Clvl": 27,
+		"Mods":[
+			"+1 to All Skills",
+			"+10 to Energy",
+			"Lightning Resist +30%",
+			"Damage Reduced by 7",
+			"+2 to Mana after each Kill",
+			"+2 to Light Radius"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Lore"
+	},
+	{
+		"Name": "Malice",
+		"Runes": ["Ith", "El", "Eth"],
+		"Types": ["Melee Weapons"],
+		"Clvl": 15,
+		"Mods":[
+			"+33% Enhanced Damage",
+			"+9 to Maximum Damage",
+			"-25% Target Defense",
+			"+50 to Attack Rating",
+			"100% Chance of Open wounds",
+			"Prevent Monster Heal",
+			"-100 to Monster Defense Per Hit",
+			"Drain Life -5"
+		],
+		"Comments": "Life drain is the opposite of life regeneration, with this you will lose 1 hp about every 2 seconds.",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Malice"
+	},
+	{
+		"Name": "Melody",
+		"Runes": ["Shael", "Ko", "Nef"],
+		"Types": ["Missile Weapons"],
+		"Clvl": 39,
+		"Mods":[
+			"+3 To Bow and Crossbow Skills (Amazon Only)",
+			"+20% Increased Attack Speed",
+			"+50% Enhanced Damage",
+			"+300% Damage To Undead",
+			"+3 To Slow Missiles (Amazon Only)",
+			"+3 To Dodge (Amazon Only)",
+			"+3 To Critical Strike (Amazon Only)",
+			"Knockback",
+			"+10 To Dexterity"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Melody"
+	},
+	{
+		"Name": "Memory",
+		"Runes": ["Lum", "Io", "Sol", "Eth"],
+		"Types": ["Staves"],
+		"Clvl": 37,
+		"Mods":[
+			"+3 To Sorceress Skill Levels",
+			"+33% Faster Cast Rate",
+			"+9 To Minimum Damage",
+			"-25% Target Defence",
+			"+3 To Energy Shield (Sorceress Only)",
+			"+2 To Static Field (Sorceress Only)",
+			"+50% Enhanced Defense",
+			"+10 Vitality",
+			"+10 Energy",
+			"Increase Maximum Mana 20%",
+			"Magic Damage Reduced By 7"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Memory"
+	},
+	{
+		"Name": "Myth",
+		"Runes": ["Hel", "Amn", "Nef"],
+		"Types": ["Armor"],
+		"Clvl": 25,
+		"Mods":[
+			"3% Chance To Cast Level 1 Howl When Struck",
+			"10% Chance To Cast Level 1 Taunt On Striking",
+			"+2 To Barbarian Skill Levels",
+			"+30 Defense Vs. Missile",
+			"Replenish Life +10",
+			"Attacker Takes Damage of 14",
+			"Requirements -15% "
+		],
+		"Comments": "Barbarian",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Myth"
+	},
+	{
+		"Name": "Nadir",
+		"Runes": ["Nef", "Tir"],
+		"Types": ["Headgear "],
+		"Clvl": 13,
+		"Mods":[
+			"+50% Enhanced Defense",
+			"+10 Defense",
+			"+30 Defense vs. Missile",
+			"+5 to Strength",
+			"+2 to Mana after each Kill",
+			"-33% Extra Gold from Monsters",
+			"-3 to Light Radius",
+			"Level 13 Cloak of Shadows (9 charges)"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Nadir"
+	},
+	{
+		"Name": "Oath",
+		"Runes": ["Shael", "Pul", "Mal", "Lum"],
+		"Types": ["Axes", "Maces", "Swords"],
+		"Clvl": 59,
+		"Mods":[
+			"Indestructible",
+			"30% Chance To Cast Level 20 Bone Spirit On Striking",
+			"+50% Increased Attack Speed",
+			"+(210-340)% Enhanced Damage",
+			"+75% Damage To Demons",
+			"+100 To Attack Rating Against Demons",
+			"Prevent Monster Heal",
+			"+10 To Energy",
+			"+(10-15) Magic Absorb",
+			"Level 16 Heart of Wolverine (20 Charges)",
+			"Level 17 Iron Golem (14 Charges)"
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Oath"
+	},
+	{
+		"Name": "Obedience",
+		"Runes": ["Hel", "Ko", "Thul", "Eth", "Fal"],
+		"Types": ["Polearms"],
+		"Clvl": 41,
+		"Mods":[
+			"30% Chance To Cast Level 21 Enchant When You Kill An Enemy",
+			"+40% Faster Hit Recovery",
+			"+370% Enhanced Damage",
+			"-25% Target Defense",
+			"Adds 3-14 Cold Damage (3 Seconds Duration,Normal)",
+			"-25% To Enemy Fire Resistance",
+			"40% Chance of Crushing Blow",
+			"+(200-300) Defense",
+			"+10 To Strength",
+			"+10 To Dexterity",
+			"All Resistances +(20-30)",
+			"Requirements -20% "
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Obedience"
+	},
+	{
+		"Name": "Passion",
+		"Runes": ["Dol", "Ort", "Eld", "Lem"],
+		"Types": ["Weapons"],
+		"Clvl": 43,
+		"Mods":[
+			"+25% Increased Attack Speed",
+			"+(160-210)% Enhanced Damage",
+			"(50-80)% Bonus To Attack Rating",
+			"+75% Damage To Undead",
+			"+50 To Attack Rating Against Undead",
+			"Adds 1-50 Lightning Damage",
+			"+1 To Berserk",
+			"+1 To Zeal",
+			"Hit Blinds Target +10",
+			"Hit Causes Monster To Flee 25%",
+			"75% Extra Gold From Monsters",
+			"Level 3 Heart of Wolverine (12 Charges)"
+		],
+		"Comments": "",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Passion"
+	},
+	{
+		"Name": "Peace",
+		"Runes": ["Shael", "Thul", "Amn"],
+		"Types": ["Armor"],
+		"Clvl": 29,
+		"Mods":[
+			"4% Chance To Cast Level 5 Slow Missiles When Struck",
+			"2% Chance To Cast level 15 Valkyrie On Striking",
+			"+2 To Amazon Skill Levels",
+			"+20% Faster Hit Recovery",
+			"+2 To Critical Strike",
+			"Cold Resist +30%",
+			"Attacker Takes Damage of 14"
+		],
+		"Comments": "Amazon",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Peace"
+	},
+	{
+		"Name": "Phoenix",
+		"Runes": ["Vex", "Vex", "Lo", "Jah"],
+		"Types": ["Weapons", "Shields"],
+		"Clvl": 65,
+		"Mods":[
+			"Both",
+			"100% Chance To Cast level 40 Blaze When You Level-up",
+			"40% Chance To Cast Level 22 Firestorm On Striking",
+			"Level (10-15) Redemption Aura When Equipped",
+			"+(350-400)% Enhanced Damage",
+			"-28% To Enemy Fire Resistance",
+			"+(350-400) Defense Vs. Missile",
+			"+(15-21) Fire Absorb",
+			"Weapons",
+			"Ignores Target's Defense",
+			"14% Mana Stolen Per Hit",
+			"20% Deadly Strike",
+			"Shields",
+			"+50 To Life",
+			"+5% To Maximum Lightning Resist",
+			"+10% To Maximum Fire Resist"
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Phoenix"
+	},
+	{
+		"Name": "Pride",
+		"Runes": ["Cham", "Sur", "Io", "Lo"],
+		"Types": ["Polearms"],
+		"Clvl": 67,
+		"Mods":[
+			"25% Chance To Cast Level 17 Fire Wall When Struck",
+			"Level (16-20) Concentration Aura When Equipped",
+			"(260-300)% Bonus To Attack Rating",
+			"+(1*Clvl)% Damage To Demons (Based on Character Level)",
+			"Adds 50-280 Lightning Damage",
+			"20% Deadly Strike",
+			"Hit Blinds Target",
+			"Freezes Target +3",
+			"+10 To Vitality",
+			"Replenish Life +8",
+			"(1.875*Clvl)% Extra Gold From Monsters (Based on Character Level)"
+		],
+		"Comments": "",
+		"Ladder": true,
+		"Url": "https://diablo2.diablowiki.net/Phoenix"
+	},
+	{
+		"Name": "Principle",
+		"Runes": ["Ral", "Gul", "Eld"],
+		"Types": ["Armor"],
+		"Clvl": 55,
+		"Mods":[
+			"100% Chance To Cast Level 5 Holy Bolt On Striking",
+			"+2 To Paladin Skill Levels",
+			"+50% Damage to Undead",
+			"+(100-150) to Life",
+			"15% Slower Stamina Drain",
+			"+5% To Maximum Poison Resist",
+			"Fire Resist +30%"
+		],
+		"Comments": "Paladin",
+		"Ladder": false,
+		"Url": "https://diablo2.diablowiki.net/Principle"
 	}
 ]

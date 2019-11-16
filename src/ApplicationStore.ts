@@ -1,6 +1,6 @@
 import RuneWords from "./runewords.json"
 
-export class ApplicationState {
+export class ApplicationStore {
 	static readonly runeCardsByName: Map<string, HTMLElement> = new Map<string, HTMLElement>();
 	static readonly runeButtonsByName: Map<string, HTMLElement> = new Map<string, HTMLElement>();
 	private static readonly selectedRunes: Set<string> = new Set<string>();
@@ -32,14 +32,14 @@ export class ApplicationState {
 		});
 
 		function hideRuneCard(runeName: string): void {
-			const runeCard: HTMLElement | undefined = ApplicationState.runeCardsByName.get(runeName);
+			const runeCard: HTMLElement | undefined = ApplicationStore.runeCardsByName.get(runeName);
 			if (runeCard !== undefined) {
 				runeCard.style.display = "none";
 			}
 		}
 
 		function showRuneCard(runeName: string): void {
-			const runeCard: HTMLElement | undefined = ApplicationState.runeCardsByName.get(runeName);
+			const runeCard: HTMLElement | undefined = ApplicationStore.runeCardsByName.get(runeName);
 			if (runeCard !== undefined) {
 				runeCard.style.display = "block";
 			}

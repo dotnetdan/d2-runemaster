@@ -4,10 +4,10 @@ body {
 	background-color: black; /* This ensures that the page doesn't flash white while loading the background image */
 	background-image: url('static/Pandemonium_Fortress_Compressed.jpg');
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: inherit;
 	background-attachment: fixed;
 	background-size: cover;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 	height: 100vh;
 	margin: 0;
 	

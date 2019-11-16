@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	entry: './src/index.ts',
+	entry: './src/index.tsx',
 	devtool: 'source-map',
 	output: {
 		filename: 'bundle.js',
@@ -11,13 +11,13 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.(ts)$/,
+				test: /\.ts(x?)$/,
 				use: 'ts-loader',
 				exclude: /node-modules/
 			}
 		]
 	},
 	resolve: {
-		extensions: ['.tsx', '.ts', '.js']
+		extensions: ['.tsx', '.ts']
 	}
 };
