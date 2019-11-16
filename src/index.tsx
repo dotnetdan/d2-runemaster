@@ -37,7 +37,7 @@ function createRuneButton(rune: typeof RunesJson[0]): HTMLDivElement {
 			<img class="rune-icon" src={rune.ImageFile}></img>
 		</button>;
 
-	runeButton.addEventListener("click", (e: Event) => {
+	runeButton.addEventListener("click", () => {
 		playRuneSound();
 		ApplicationStore.runeButtonActivated(rune.Name);
 	});
@@ -48,35 +48,24 @@ function createRuneButton(rune: typeof RunesJson[0]): HTMLDivElement {
 }
 
 function createRunewordCard(runeword: typeof RunewordsJson[0]): HTMLDivElement {
-	const runeWordCardElement = document.createElement("div");
-	runeWordCardElement.className = "runeword-card";
-	const runeCardNameElement = document.createElement("p");
-	runeCardNameElement.innerHTML = `<a href="${runeword.Url}" class="runeword-card-name" target="_blank">${runeword.Name}</a>`;
-	runeCardNameElement.classList.add("runeword-card-name");
-	runeCardNameElement.classList.add("runeword-card-text");
-	runeWordCardElement.appendChild(runeCardNameElement);
-	ApplicationStore.runeCardsByName.set(runeword.Name, runeWordCardElement);
+	const runewordCard =
+		<div class="runeword-card">
+			<p class="runeword-card-text runeword-card-name">
+				<a class="runeword-card-name" href={runeword.Url} target="_blank">{runeword.Name}</a>
+			</p>
+			<p class="runeword-card-text runeword-card-word">
+				{`'${runeword.Runes.join("")}'`}
+			</p>
+			<p class="runeword-card-text runeword-card-items">
+				{runeword.Types.join(", ")}
+			</p>
+		</div>;
+	
+	runeword.Mods.forEach(x =>
+		runewordCard.appendChild(<p class="runeword-card-text runeword-card-mod">{x}</p>)
+	);
 
-	const runeWordCardWordElement = document.createElement("p");
-	runeWordCardWordElement.innerText = "'" + runeword.Runes.join("") + "'";
-	runeWordCardWordElement.className = "runeword-card-word";
-	runeWordCardWordElement.classList.add("runeword-card-text");
-	runeWordCardElement.appendChild(runeWordCardWordElement);
+	ApplicationStore.runeCardsByName.set(runeword.Name, runewordCard);
 
-	const runeWordCardItemsElement = document.createElement("p");
-	runeWordCardItemsElement.innerText = runeword.Types.join(", ");
-	runeWordCardItemsElement.className = "runeword-card-text";
-	runeWordCardItemsElement.classList.add("runeword-card-items");
-	runeWordCardElement.appendChild(runeWordCardItemsElement);
-
-	// const hr = document.createElement("hr");
-	// runeWordCardElement.appendChild(hr);
-
-	const runeWordCardModElement = document.createElement("p");
-	runeWordCardModElement.className = "runeword-card-text";
-	runeWordCardModElement.classList.add("runeword-card-mod");
-	runeWordCardModElement.innerHTML = runeword.Mods.join("<br/>");
-	runeWordCardElement.appendChild(runeWordCardModElement);
-
-	return runeWordCardElement;
+	return runewordCard;
 }
