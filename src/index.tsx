@@ -26,23 +26,28 @@ function playRuneSound() {
 	audio.play();
 }
 
-function createRuneButton(rune: typeof RunesJson[0]): HTMLDivElement {
-	const outerButton =
-		<div class="rune-outer-button">
+function createRuneButton(rune: typeof RunesJson[0]): HTMLElement {
+	const outerButton: HTMLElement =
+		<div class="rune-outer-button" xyz>
 			<p class="rune-button-caption">{rune.Name}</p>
 		</div>;
 
-	const runeButton =
+	const runeButton: HTMLElement =
 		<button class="rune-button">
-			<img class="rune-icon" src={rune.ImageFile}></img>
+			<img class="rune-icon"
+				src={rune.ImageFile}
+				click={() => {
+					playRuneSound();
+					ApplicationStore.runeButtonActivated(rune.Name);
+				}}></img>
 		</button>;
 
-	runeButton.addEventListener("click", () => {
-		playRuneSound();
-		ApplicationStore.runeButtonActivated(rune.Name);
-	});
+	// runeButton.addEventListener("click", () => {
+	// 	playRuneSound();
+	// 	ApplicationStore.runeButtonActivated(rune.Name);
+	// });
 	ApplicationStore.runeButtonsByName.set(rune.Name, runeButton);
-
+	let x: HTMLElementEventMap;
 	outerButton.appendChild(runeButton);
 	return outerButton;
 }

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "buildAndWatch": "webpack --watch",
+    "buildAndWatch": "webpack --watch --mode=development",
     "start": "webpack-dev-server --no-inline",
     "deploy": "gh-pages -d public"
   },
